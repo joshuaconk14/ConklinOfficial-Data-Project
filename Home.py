@@ -23,5 +23,5 @@ def app():
     st.write("")
 
     # image upload
-    image_url = "/Users/Joshua/Desktop/venv/CO_streamlit_app/pictures/profpic1.jpg"
+    image_url = "pictures/profpic1.jpg"
     st.image(image_url, use_column_width = True)
