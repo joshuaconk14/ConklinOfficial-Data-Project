@@ -40,8 +40,11 @@ def app():
 
     # read file
     st.write("### Raw data")
-    df = pd.read_csv(r"/Users/Joshua/Desktop/venv/CO_proj_data/CO_Post_multi_data_3_months.csv")
-    st.write(df)
+    df = pd.read_csv(r"/Users/Joshua/Desktop/My_projects/CO_proj_data/CO_Post_multi_data_3_months.csv")
+    # hide Account ID column
+    columns_to_hide = ["Account ID"]
+    df_visible = df.drop(columns=columns_to_hide)
+    st.write(df_visible)
     st.write("")
     st.write("")
     st.write("")
