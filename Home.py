@@ -23,5 +23,5 @@ def app():
     st.write("")
 
     # image upload
-    image_url = "/pictures/profpic1.jpg"
+    image_url = "pictures/profpic1.jpg"
     st.image(image_url, use_column_width = True)
