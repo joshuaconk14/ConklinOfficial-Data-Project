@@ -17,8 +17,8 @@ database_url = st.secrets.get("DATABASE_URL", os.getenv("DATABASE_URL"))
 
 
 # Example usage of secret key and database URL
-st.write(f"Secret Key: {secret_key}")
-st.write(f"Database URL: {database_url}")
+# st.write(f"Secret Key: {secret_key}")
+# st.write(f"Database URL: {database_url}")
 
 
 
