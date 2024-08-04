@@ -175,13 +175,10 @@ def app():
     st.write("")
     st.write("")
     st.write("")
-    st.write("")
+    
 
     # results
-    title_html = """
-    <h1 style = "text-align: center; color: gray; padding: 20px; font-size: 1.8em;">Analysis</h1>
-    """
-    st.markdown(title_html, unsafe_allow_html = True)
+    st.write("### Analysis")
     st.write("")
     st.write("")
     st.write("Over the past three months, ConklinOfficial has provided a variety of soccer content, mainly sharing how-to's, ball mastery drills, coaching tips, mentality advice, and habit improvements. Key performance indicators such as likes, comments, shares, and reach have allowed us to figure out which type of posts are performing best. We will use likes, saves, and shares as our main KPIs for this analysis. Data below the red Bad Performance line are posts that haven't performed well, and data above the green Good Performance line are posts that have performed well and have matched our goal for that KPI. Posts lying in between the lines have performed decently.")
