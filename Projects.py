@@ -172,3 +172,20 @@ def app():
 
     # Display the updated plot in Streamlit
     st.plotly_chart(fig)
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
+
+    # results
+    title_html = """
+    <h1 style = "text-align: center; color: gray; padding: 20px; font-size: 1.8em;">Analysis</h1>
+    """
+    st.markdown(title_html, unsafe_allow_html = True)
+    st.write("")
+    st.write("")
+    st.write("Over the past three months, ConklinOfficial has provided a variety of soccer content, mainly sharing how-to's, ball mastery drills, coaching tips, mentality advice, and habit improvements. Key performance indicators such as likes, comments, shares, and reach have allowed us to figure out which type of posts are performing best. We will use likes, saves, and shares as our main KPIs for this analysis. Data below the red Bad Performance line are posts that haven't performed well, and data above the green Good Performance line are posts that have performed well and have matched our goal for that KPI. Posts lying in between the lines have performed decently.")
+    st.write("")
+    st.write("Habit improvement videos have good engagement from our audience, with posts from April 28, May 14, and May 30 hitting 1,897, 545, and 400 likes respectively and comfortably above the Bad performance line. Mentality advice videos have not performed well, with posts from May 21 and May 28 hovering closer to the Bad Performace line with 206 and 354 likes. How-to videos have shown to be clear favorites, with posts on May 26 and May 27 getting 18,542 and 14,233 likes respectively. They also have far more saves and shares than other post types, with 2,974 and 4,986 saves, and 1,800 and 2,157 shares respectively.")
+    st.write("")
+    st.write("Based on the results, 'How-to' have been the best performing videos in the past three months, and are the preferred videos by our audience members. Our goal will be to increase the ratio of how-to videos to other content by 20%, mainly being striking tutorials since the two how-to videos were 'rabona' and 'power shot' tips.")
