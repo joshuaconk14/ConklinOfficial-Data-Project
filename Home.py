@@ -1,4 +1,6 @@
 import streamlit as st
+#from PIL import Image, ImageDraw
+#from IPython.display import display, HTML
 
 def app():
     # title
@@ -9,6 +11,15 @@ def app():
         """
     st.markdown(title_html, unsafe_allow_html = True)
 
+    # image upload and centering
+    st.write("")
+    st.write("")
+    image_url = "pictures/circular_image.png"
+    col1, col2, col3 = st.columns([1, 3, 4])
+
+    with col2:
+        st.image(image_url, width=500)
+
     # intro
     st.write("")
     st.write("")
@@ -16,12 +27,3 @@ def app():
     st.write("")
     st.write("")
     st.write("I am a fourth year student at the Lucas College and Graduate School of Business, stepping closer towards my bachelor's degree in Business Administration/ Marketing, with a growing interest in business analytics and data science. I have played for the Ohlone College Men's Soccer Team and the San Jose State Men's Club Soccer Team during my time in college. As an avid soccer player and former soccer-coach, I have a passion for applying my creativity and knowledge to the world around me. Although I am a marketing major, I would love to explore a multitude of business roles, such as data science and management. I look forward to what the future has in store for me, and to continuously grow in my pursuit for accomplishment.")
-    st.write("")
-    st.write("")
-    st.write("")
-    st.write("")
-    st.write("")
-
-    # image upload
-    image_url = "pictures/profpic1.jpg"
-    st.image(image_url, use_column_width = True)
