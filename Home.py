@@ -1,4 +1,5 @@
 import streamlit as st
+#these two imports were used for making pic into circle
 from PIL import Image, ImageDraw
 from IPython.display import display, HTML
 
