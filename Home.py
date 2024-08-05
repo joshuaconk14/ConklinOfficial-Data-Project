@@ -12,10 +12,10 @@ def app():
     # intro
     st.write("")
     st.write("")
-    st.write("Welcome to my website where I display my projects using Python to extract data from the web, design graphic displays, and analyze key metrics to make strategic business decisions! I also created this website with Streamlit, using Python and stylesheet languages (HTML and CSS) in VS Code.")
+    st.write("Welcome to my website where I display my projects using Python to extract data from the web, design interactive graphs, and analyze key metrics to make strategic business decisions! I also created this website with Streamlit, using Python, Pandas, NumPy, and HTML in VS Code.")
     st.write("")
     st.write("")
-    st.write("I am a fourth year student at the Lucas College and Graduate School of Business, stepping closer towards my bachelor's degree in Business Administration/ Marketing, with a growing interest in business analytics and data science. I have played for the Ohlone College Men's Soccer Team and the San Jose State Men's Club Soccer Team during my time in college. As an avid soccer player and former soccer-coach, I have a passion for applying my creativity and knowledge to the world around me. Although I am a marketing major, I would love to explore a multitude of data roles, such as data science and management. I look forward to what the future has in store for me, and to continuously grow in my pursuit for accomplishment.")
+    st.write("I am a fourth year student at the Lucas College and Graduate School of Business, stepping closer towards my bachelor's degree in Business Administration/ Marketing, with a growing interest in business analytics and data science. I have played for the Ohlone College Men's Soccer Team and the San Jose State Men's Club Soccer Team during my time in college. As an avid soccer player and former soccer-coach, I have a passion for applying my creativity and knowledge to the world around me. Although I am a marketing major, I would love to explore a multitude of business roles, such as data science and management. I look forward to what the future has in store for me, and to continuously grow in my pursuit for accomplishment.")
     st.write("")
     st.write("")
     st.write("")
