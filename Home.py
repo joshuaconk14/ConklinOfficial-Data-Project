@@ -1,6 +1,6 @@
 import streamlit as st
-#from PIL import Image, ImageDraw
-#from IPython.display import display, HTML
+from PIL import Image, ImageDraw
+from IPython.display import display, HTML
 
 def app():
     # title
