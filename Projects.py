@@ -186,6 +186,7 @@ def app():
         st.write("Based on the results, how-to videos have been the best performing videos in the past three months, and are the preferred videos by our audience members. Our goal will be to increase the ratio of how-to videos to other content by 20%, mainly being striking tutorials since the two how-to videos were 'rabona' and 'power shot' tips.")
     
     # Project 1 description
+    st.write("Jul 2024 - Aug 2024")
     st.write("Data Engineering and Analytics project demonstrating the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
     st.write("")
     st.write("Skills: Python, Jupyter, Pandas, Numpy, HTML, Data Extraction, Software Design, Data Analysis, Data Analytics")
@@ -197,6 +198,7 @@ def app():
 
     with st.expander("Qualtrics Survey - Marketing Analytics"):
         st.write("https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8")
+    st.write("Feb 2024 - May 2024")
     st.write("Conducted a survey through Qualtrics platform to research people's opinions on influencer marketing affecting consumer purchasing behavior. Used Rstudio to code the data and analyze the participant response trends in order to make future predictions.")
     st.write("")
     st.write("Skills: R, Excel, Data Analysis, Research Design, Qualitative Research, Business Analytics, Data Entry")
@@ -209,6 +211,7 @@ def app():
         image_url = "pictures/FYSC_logo.png"
         st.image(image_url, width = 300)
         st.write("https://www.fremontyouthsoccer.com/2017/02/the-new-fremont-youth-soccer-club-badge/")
+    st.write("Jan 2017 - Feb 2017")
     st.write("Created FYSC official logo that is being used today. Creatively incorporated club values onto the logo using Adobe Illustrator.")
     st.write("")
     st.write("Skills: Adobe Illustrator, Graphic Design, Creativity Skills")
