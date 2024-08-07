@@ -51,7 +51,7 @@ def app():
         # Convert to datetime
         df['Publish time'] = pd.to_datetime(df['Publish time'])
 
-        # Put publish time in alphabetical order
+        # Put publish time in numerical order
         df = df.sort_values(by='Publish time')
 
         # Get rid of time posted in x-axis
@@ -110,17 +110,16 @@ def app():
 
 
 
-
-        # Allow user to click permalink based off of the amount of likes it has
+        # Allow user to click permalink based off of the amount of likes it has, split into 3 columns
         st.write("### Click on a date to open the corresponding Instagram post")
         for i, row in df.iterrows():
             st.write(f"[{row['Publish time']}]({row['Permalink']}) - {row['Likes']} likes")
-        st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
-        st.write("")
 
+        st.write("")
+        st.write("")
+        st.write("")
+        st.write("")
+        st.write("")
 
 
 
