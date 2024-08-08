@@ -108,12 +108,32 @@ def app():
 
 
 
-
-
         # Allow user to click permalink based off of the amount of likes it has, split into 3 columns
         st.write("### Click on a date to open the corresponding Instagram post")
-        for i, row in df.iterrows():
-            st.write(f"[{row['Publish time']}]({row['Permalink']}) - {row['Likes']} likes")
+       # for i, row in df.iterrows():
+            #st.write(f"[{row['Publish time']}]({row['Permalink']}) - {row['Likes']} likes")
+
+        # Calculate the number of rows per column
+        num_rows = len(df)
+        rows_per_col = (num_rows + 2) // 3  # Ensure rounding up for incomplete columns
+
+        # Create three columns in Streamlit
+        cols = st.columns(3)
+
+        # Split the DataFrame into three equal parts
+        first_col_df = df.iloc[:rows_per_col]
+        second_col_df = df.iloc[rows_per_col:2*rows_per_col]
+        third_col_df = df.iloc[2*rows_per_col:]
+
+        # Function to display DataFrame in a column
+        def display_df_in_column(df, col):
+            for _, row in df.iterrows():
+                col.write(f"[{row['Publish time']}]({row['Permalink']}) - {row['Likes']} likes")
+
+        # Display each part in its respective column
+        display_df_in_column(first_col_df, cols[0])
+        display_df_in_column(second_col_df, cols[1])
+        display_df_in_column(third_col_df, cols[2])
 
         st.write("")
         st.write("")
