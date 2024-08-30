@@ -17,6 +17,9 @@ def app():
     st.write("LinkedIn: \n\nhttps://www.linkedin.com/in/joshua-conklin/")
     st.write("")
     st.write("")
+    st.write("Github: \n\nhttps://github.com/joshuaconk14/COProject.git")
+    st.write("")
+    st.write("")
     st.write("Instagram:")
     username = ["joshuaconk"]
     for user in username:

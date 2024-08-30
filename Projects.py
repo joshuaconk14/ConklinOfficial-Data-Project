@@ -107,11 +107,11 @@ def app():
 
 
 
+    #isnt working ???
 
         # Allow user to click permalink based off of the amount of likes it has, split into 3 columns
-        st.write("### Click on a date to open the corresponding Instagram post")
-       # for i, row in df.iterrows():
-            #st.write(f"[{row['Publish time']}]({row['Permalink']}) - {row['Likes']} likes")
+        st.write("### Click on a date to open the corresponding Instagram post") 
+        #old: for i,row...
 
         # Calculate the number of rows per column
         num_rows = len(df)
