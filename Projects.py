@@ -33,10 +33,10 @@ def app():
         st.image(image_url, width = 900)
         image_url = "pictures/datajob_ss2.png"
         st.image(image_url, width = 900)
-    st.write("Feb 2024 - May 2024")
-    st.write("Conducted a survey through Qualtrics platform to research people's opinions on influencer marketing affecting consumer purchasing behavior. Used Rstudio to code the data and analyze the participant response trends in order to make future predictions.")
+    st.write("August 2024")
+    st.write("Used SQL abd Tableau in order to determine which programming languages were mentioned the most in job descriptions for data roles (mainly Data Engineers, Data Analysts, and Data Scientists). This is to help data job seekers know what programming languages they need to understand for specific jobs.")
     st.write("")
-    st.write("Skills: R, Excel, Data Analysis, Research Design, Qualitative Research, Business Analytics, Data Entry")
+    st.write("Skills: SQL, Tableau, Azure Studio, Databases, Storytelling, Data Visualization, Big Data, Data Connection, Performance Optimization")
     st.write("")
     st.write("")
     st.write("")
@@ -223,9 +223,9 @@ def app():
     
     # Project 2 description
     st.write("Jul 2024 - Aug 2024")
-    st.write("Data Engineering and Analytics project demonstrating the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
+    st.write("Used Python, Pandas, and Numpy demonstrate the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
     st.write("")
-    st.write("Skills: Python, Jupyter, Pandas, Numpy, HTML, Data Extraction, Software Design, Data Analysis, Data Analytics")
+    st.write("Skills: Python, Jupyter, Pandas, Numpy, HTML, Data Extraction, Data Visualization, Software Design, Data Analysis")
     st.write("")
     st.write("")
     st.write("")
@@ -235,7 +235,7 @@ def app():
     with st.expander("Qualtrics Survey - Marketing Analytics"):
         st.write("https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8")
     st.write("Feb 2024 - May 2024")
-    st.write("Conducted a survey through Qualtrics platform to research people's opinions on influencer marketing affecting consumer purchasing behavior. Used Rstudio to code the data and analyze the participant response trends in order to make future predictions.")
+    st.write("Conducted a survey through Qualtrics platform, create with Rstudio, to research people's opinions on influencer marketing affecting consumer purchasing behavior. Coded the data and analyze the participant response trends in order to make future predictions.")
     st.write("")
     st.write("Skills: R, Excel, Data Analysis, Research Design, Qualitative Research, Business Analytics, Data Entry")
     st.write("")
@@ -249,6 +249,6 @@ def app():
         st.image(image_url, width = 300)
         st.write("https://www.fremontyouthsoccer.com/2017/02/the-new-fremont-youth-soccer-club-badge/")
     st.write("Jan 2017 - Feb 2017")
-    st.write("Created FYSC official logo that is being used today. Creatively incorporated club values onto the logo using Adobe Illustrator.")
+    st.write("Created FYSC official logo with Adobe Illustrator that is being used today. Creatively incorporated club values and worked with board members presenting multiple ideas to create the best logo possible.")
     st.write("")
     st.write("Skills: Adobe Illustrator, Graphic Design, Creativity Skills")
