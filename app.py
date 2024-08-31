@@ -32,7 +32,7 @@ database_url = st.secrets.get("DATABASE_URL", os.getenv("DATABASE_URL"))
 
 # page configuration on browser
 st.set_page_config(
-    page_title = "Joshua Conklin Project Portfolio",
+    page_title = "Joshua Conklin Projects",
     page_icon = "📊",
     layout = "centered",
     initial_sidebar_state = "auto"
