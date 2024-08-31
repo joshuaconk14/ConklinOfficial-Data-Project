@@ -26,7 +26,22 @@ def app():
         #""",
         #unsafe_allow_html = True
     #)
+
+    #Project 1
+    with st.expander("Data Jobs Analysis - Programming Languages Mentioned"):
+        image_url = "pictures/datajob_ss1.png"
+        image_url = "pictures/datajob_ss2.png"
+    st.write("Feb 2024 - May 2024")
+    st.write("Conducted a survey through Qualtrics platform to research people's opinions on influencer marketing affecting consumer purchasing behavior. Used Rstudio to code the data and analyze the participant response trends in order to make future predictions.")
+    st.write("")
+    st.write("Skills: R, Excel, Data Analysis, Research Design, Qualitative Research, Business Analytics, Data Entry")
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
     
+
+    #Project 2
     with st.expander("ConklinOfficial KPI Dashboard - Relationship between KPIs and Content"):
         # Project title
         title_html = """
@@ -204,7 +219,7 @@ def app():
         st.write("")
         st.write("Based on the results, how-to videos have been the best performing videos in the past three months, and are the preferred videos by our audience members. Our goal will be to increase the ratio of how-to videos to other content by 20%, mainly being striking tutorials since the two how-to videos were 'rabona' and 'power shot' tips.")
     
-    # Project 1 description
+    # Project 2 description
     st.write("Jul 2024 - Aug 2024")
     st.write("Data Engineering and Analytics project demonstrating the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
     st.write("")
@@ -214,7 +229,7 @@ def app():
     st.write("")
     st.write("")
 
-
+# Project 3
     with st.expander("Qualtrics Survey - Marketing Analytics"):
         st.write("https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8")
     st.write("Feb 2024 - May 2024")
@@ -226,6 +241,7 @@ def app():
     st.write("")
     st.write("")
 
+# Project 4
     with st.expander("Logo - Fremont Youth Soccer Club"):
         image_url = "pictures/FYSC_logo.png"
         st.image(image_url, width = 300)
