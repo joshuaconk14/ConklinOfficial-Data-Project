@@ -17,7 +17,7 @@ def app():
     st.write("LinkedIn: \n\nhttps://www.linkedin.com/in/joshua-conklin/")
     st.write("")
     st.write("")
-    st.write("Github: \n\nhttps://github.com/joshuaconk14/ConklinOfficial-Data-Project.git")
+    st.write("Github: \n\nhttps://github.com/joshuaconk14/Josh-Conk-Project-Portfolio.git")
     st.write("")
     st.write("")
     st.write("Instagram:")
