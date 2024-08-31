@@ -30,7 +30,9 @@ def app():
     #Project 1
     with st.expander("Data Jobs Analysis - Programming Languages Mentioned"):
         image_url = "pictures/datajob_ss1.png"
+        st.image(image_url, width = 900)
         image_url = "pictures/datajob_ss2.png"
+        st.image(image_url, width = 900)
     st.write("Feb 2024 - May 2024")
     st.write("Conducted a survey through Qualtrics platform to research people's opinions on influencer marketing affecting consumer purchasing behavior. Used Rstudio to code the data and analyze the participant response trends in order to make future predictions.")
     st.write("")
