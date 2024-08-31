@@ -28,13 +28,13 @@ def app():
     #)
 
     #Project 1
-    with st.expander("Data Jobs Analysis - Programming Languages Mentioned"):
+    with st.expander("Programming Language Mentions Analysis - Mentions from Data Jobs"):
         image_url = "pictures/datajob_ss1.png"
         st.image(image_url, width = 900)
         image_url = "pictures/datajob_ss2.png"
         st.image(image_url, width = 900)
     st.write("August 2024")
-    st.write("Used SQL abd Tableau in order to determine which programming languages were mentioned the most in job descriptions for data roles (mainly Data Engineers, Data Analysts, and Data Scientists). This is to help data job seekers know what programming languages they need to understand for specific jobs.")
+    st.write("Used SQL and Tableau in order to determine which programming languages were mentioned the most in job descriptions for data roles (mainly Data Engineers, Data Analysts, and Data Scientists). This is to help data job seekers know what programming languages they need to understand and practice for specific data jobs.")
     st.write("")
     st.write("Skills: SQL, Tableau, Azure Studio, Databases, Storytelling, Data Visualization, Big Data, Data Connection, Performance Optimization")
     st.write("")
