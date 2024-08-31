@@ -8,7 +8,7 @@ def app():
     title_html = """
         <h1 style = "text-align: center; color: gray; padding: 10px">Home</h1>
         <h2 style = "text-align: center; color: gray; padding: 0px"> -- </h2>
-        <h3 style = "text-align: center; color: gray; padding: 10px">Joshua Conklin Projects</h3>
+        <h3 style = "text-align: center; color: gray; padding: 10px">Joshua Conklin Project Portfolio</h3>
         """
     st.markdown(title_html, unsafe_allow_html = True)
 
