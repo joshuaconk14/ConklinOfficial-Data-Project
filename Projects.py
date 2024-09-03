@@ -45,7 +45,7 @@ def app():
                 image_url = "pictures/datajob_ss2.png"
                 st.image(image_url, width = 900)
             streamlit_url = "https://github.com/joshuaconk14/Data-Jobs-Project.git"
-            st.markdown("[Visit Github Repo]({streamlit_url})")
+            st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("August 2024")
     st.write("Used SQL and Tableau in order to determine which programming languages were mentioned the most in job descriptions for data roles (mainly Data Engineers, Data Analysts, and Data Scientists). This is to help data job seekers know what programming languages they need to understand and practice for specific data jobs.")
     st.write("")
@@ -64,7 +64,7 @@ def app():
             st.subheader("ConklinOfficial KPI Dashboard - Relationship between KPIs and Content")
             st.markdown("[View Full Project Display](https://co-kpis-project.streamlit.app/)")
             streamlit_url = "https://github.com/joshuaconk14/CO_KPIs_Project.git"
-            st.markdown("[Visit Github Repo]({streamlit_url})")
+            st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("Jul 2024 - Aug 2024")
     st.write("Used Python, Pandas, and Numpy demonstrate the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
     st.write("")
@@ -81,7 +81,7 @@ def app():
         with col2:
             st.subheader("Qualtrics Survey - Marketing Analytics")
             streamlit_url = "https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8"
-            st.markdown("[View Full Project Display]({streamlit_url})")
+            st.markdown(f"[View Full Project Display]({streamlit_url})")
     st.write("Feb 2024 - May 2024")
     st.write("Conducted a survey through Qualtrics platform, create with Rstudio, to research people's opinions on influencer marketing affecting consumer purchasing behavior. Coded the data and analyze the participant response trends in order to make future predictions.")
     st.write("")
@@ -98,7 +98,7 @@ def app():
         with col2:
             st.subheader("Logo - Fremont Youth Soccer Club")
             streamlit_url = "https://www.fremontyouthsoccer.com/2017/02/the-new-fremont-youth-soccer-club-badge/"
-            st.markdown("[View Project Announcement]({streamlit_url})")
+            st.markdown(f"[View Project Announcement]({streamlit_url})")
     st.write("Jan 2017 - Feb 2017")
     st.write("Created FYSC official logo with Adobe Illustrator that is being used today. Creatively incorporated club values and worked with board members presenting multiple ideas to create the best logo possible.")
     st.write("")
