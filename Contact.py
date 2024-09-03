@@ -9,9 +9,6 @@ def app():
     st. markdown(title_html, unsafe_allow_html = True)
 
     # contact info
-    st.write("Welcome to my contacts list, here you can find ways to contact me.")
-    st.write("")
-    st.write("")
     st.write("")
     st.write("")
     st.write("LinkedIn: \n\nhttps://www.linkedin.com/in/joshua-conklin/")
