@@ -27,6 +27,70 @@ def app():
         #unsafe_allow_html = True
     #)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    def create_link_preview(title, description, url, image_url):
+        st.markdown(f"""
+        <div style="border: 1px solid #ddd; padding: 10px; border-radius: 10px; display: flex; align-items: center;">
+            <img src="{image_url}" alt="{title}" style="width: 100px; height: 100px; border-radius: 10px; margin-right: 10px;">
+            <div>
+                <a href="{url}" target="_blank" style="text-decoration: none;">
+                    <h3 style="margin: 0; color: #0073b1;">{title}</h3>
+                </a>
+                <p style="color: #555;">{description}</p>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    create_link_preview(
+        title="My Awesome Project",
+        description="A brief description of my project that showcases its features and functionality.",
+        url="https://your-project-link.com",
+        image_url="pictures/datajobs_ss1.png"
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     #Project 1
     with st.expander("Programming Language Mentions Analysis - Mentions from Data Jobs"):
         image_url = "pictures/datajob_ss1.png"
