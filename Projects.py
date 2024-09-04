@@ -63,7 +63,7 @@ def app():
         with col2:
             st.subheader("ConklinOfficial KPI Dashboard - Relationship between KPIs and Content")
             st.markdown("[View Full Project Display](https://co-kpis-project.streamlit.app/)")
-            streamlit_url = "https://github.com/joshuaconk14/CO_KPIs_Project.git"
+            streamlit_url = ""
             st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("Jul 2024 - Aug 2024")
     st.write("Used Python, Pandas, and Numpy demonstrate the relationship between KPIs and the type of reel posted, indicating what type of post performs best and which posts posts we should focus on.")
