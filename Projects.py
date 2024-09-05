@@ -39,11 +39,15 @@ def app():
             st.image(image_url, width = 250)
         with col2:
             st.subheader("Programming Language Mentions Analysis - Mentions from Data Jobs")
-            with st.expander("Programming Language Mentions Analysis - Mentions from Data Jobs"):
-                image_url = "pictures/datajob_ss1.png"
-                st.image(image_url, width = 900)
-                image_url = "pictures/datajob_ss2.png"
-                st.image(image_url, width = 900)
+            # create pdf button
+            with open("files/Data_Jobs_Tableau_Story_copy.pdf","rb") as pdf_file:
+                pdf_story = pdf_file.read()
+            st.download_button("View Full Project Display", data = pdf_story, file_name = "files/Data_Jobs_Tableau_Story_copy.pdf")
+            #with st.expander("Programming Language Mentions Analysis - Mentions from Data Jobs"):
+                #image_url = "pictures/datajob_ss1.png"
+                #st.image(image_url, width = 900)
+                #image_url = "pictures/datajob_ss2.png"
+                #st.image(image_url, width = 900)
             streamlit_url = "https://github.com/joshuaconk14/Data-Jobs-Project.git"
             st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("August 2024")
