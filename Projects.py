@@ -84,8 +84,9 @@ def app():
             st.image(image_url, width = 250)
         with col2:
             st.subheader("Qualtrics Survey - Marketing Analytics")
-            streamlit_url = "https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8"
-            st.markdown(f"[View Full Project Display]({streamlit_url})")
+            st.markdown(f"[View Full Project Display](https://sjsu.qualtrics.com/jfe/form/SV_2gwvgq9OUSAKoF8)")
+            streamlit_url = "https://github.com/joshuaconk14/Qualtrics_Survey_Project.git"
+            st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("Feb 2024 - May 2024")
     st.write("Conducted a survey through Qualtrics platform, create with Rstudio, to research people's opinions on influencer marketing affecting consumer purchasing behavior. Coded the data and analyze the participant response trends in order to make future predictions.")
     st.write("")
