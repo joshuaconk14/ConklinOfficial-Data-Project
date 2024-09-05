@@ -48,7 +48,7 @@ def app():
                 #st.image(image_url, width = 900)
                 #image_url = "pictures/datajob_ss2.png"
                 #st.image(image_url, width = 900)
-            streamlit_url = "https://github.com/joshuaconk14/Data-Jobs-Project.git"
+            streamlit_url = "https://github.com/joshuaconk14/Data_Jobs_Project.git"
             st.markdown(f"[Visit Github Repo]({streamlit_url})")
     st.write("August 2024")
     st.write("Used SQL and Tableau in order to determine which programming languages were mentioned the most in job descriptions for data roles (mainly Data Engineers, Data Analysts, and Data Scientists). This is to help data job seekers know what programming languages they need to understand and practice for specific data jobs.")
