@@ -8,20 +8,27 @@ def app():
         """
     st. markdown(title_html, unsafe_allow_html = True)
 
-    # contact info
+
     st.write("")
-    st.write("")
-    st.write("LinkedIn: \n\nhttps://www.linkedin.com/in/joshua-conklin/")
-    st.write("")
-    st.write("")
-    st.write("Github: \n\nhttps://github.com/joshuaconk14/Josh-Conk-Project-Portfolio.git")
-    st.write("")
-    st.write("")
-    st.write("Instagram:")
+    st.subheader("""
+    LinkedIn
+    https://www.linkedin.com/in/joshua-conklin/
+    """)
+    st.write("###")
+    st.subheader("""
+    GitHub
+    https://github.com/joshuaconk14/Josh-Conk-Project-Portfolio.git
+    """)
+    st.write("###")
+    st.subheader("""
+    Instagram
+    """)
     username = ["joshuaconk"]
     for user in username:
         profile_url = f"https://www.instagram.com/{user}/"
-        st.markdown(f"@[{user}]({profile_url})")
-    st.write("")
-    st.write("")
-    st.write("email: \n\njoshua@caffeinated.org")
+    st.markdown(f"@[{user}]({profile_url})")
+    st.write("###")
+    st.subheader("""
+    Email
+    joshua@caffeinated.org
+    """)
