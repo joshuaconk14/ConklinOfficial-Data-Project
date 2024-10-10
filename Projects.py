@@ -29,9 +29,11 @@ def app():
 
 
 
-
-
     #Project 1
+    with st.container():
+        image_url = "pictures/Bravo_company_pic_copy.png"
+
+    #Project 2
     with st.container():
         image_url = "pictures/datajob_ss1.png"
         col1, col2 = st.columns([1,2])
@@ -58,7 +60,7 @@ def app():
     st.write("##")
     
 
-    #Project 2
+    #Project 3
     with st.container():
         image_url = "pictures/COproj_ss.png"
         col1, col2 = st.columns([1,2])
@@ -76,7 +78,7 @@ def app():
     st.write("##")
     st.write("##")
 
-# Project 3
+# Project 4
     with st.container():
         image_url = "pictures/Qualtrics_ss.png"
         col1, col2 = st.columns([1,2])
